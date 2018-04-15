@@ -1,4 +1,3 @@
-# openff
 ﻿README.md
 Auteur 	: N4th4lie
 Date	: 18/03/2018
@@ -15,8 +14,8 @@ considérant un aliment donné, en proposer un substitut plus sain.
 Fonctionnalités :
 l'utilisateur est sur le terminal Python.
 Ce dernier lui propose le menu suivant :
-1- Choisir un aliment de départ et obtenir un aliment de substitution.
-2- Consulter l'historique i.e. retrouver les substitutions enregistrées.
+ 1. Choisir un aliment de départ et obtenir un aliment de substitution.
+ 2. Consulter l'historique i.e. retrouver les substitutions enregistrées.
 
 Contenu :
  - présentation README.md
