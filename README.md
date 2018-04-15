@@ -12,6 +12,7 @@ pour en récupérer des aliments, les comparer et pour,
 considérant un aliment donné, en proposer un substitut plus sain.
 
 Fonctionnalités :
+
 l'utilisateur est sur le terminal Python.
 Ce dernier lui propose le menu suivant :
  1. Choisir un aliment de départ et obtenir un aliment de substitution.
