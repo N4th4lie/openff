@@ -22,9 +22,12 @@ Contenu :
  - présentation README.md
  - categories.csv (les catégories Open Food Facts sélectionnées)
  - répertoire data_categ (jeu de produits téléchargés par catégorie)
- - fichiers csv extraits des json de data_categ
-   (products.csv, cat_prod.csv)
- - codes (urlrequest_categories.py, read_products.py, load_data_in_openff)
+ - fichiers csv extraits des json de data_categ :
+   products.csv, cat_prod.csv)
+ - code création de la base de données :
+   urlrequest_categories.py, read_products.py, load_data_in_openff.py
+ - code du programme :
+   openff.py, classes.py, constants.py, myconnutils.py
 
 To install and execute this program, you need to follow these steps:
 1. git clone https://github.com/n4th4lie/openff.git && cd openff
