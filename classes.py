@@ -37,7 +37,7 @@ classes.py
                 *********************************************************
             
     4. class Result: the method in Result displays the whole description 
-            of a result. Attribut of Result is a row of Results table from 
+            of a result. Attribute of Result is a row of Results table from 
             openff database, from which we only get id number of the initial
             and substitute products.
             So we have to load this couple of products from openff database

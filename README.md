@@ -1,6 +1,10 @@
 ﻿README.md
-Auteur 	: N4th4lie
-Date	: 18/03/2018
+
+Auteur 	 : N4th4lie
+
+Création : 15/04/2018
+
+Dernière version : 05/05/2018
 
 ------------------------------------------------------
 Recherche d'aliments dans la base Open Food Facts (FR)
@@ -20,18 +24,19 @@ Ce dernier lui propose le menu suivant :
 
 Contenu :
  - présentation README.md
- - categories.csv (les catégories Open Food Facts sélectionnées)
- - répertoire data_categ (jeu de produits téléchargés par catégorie)
+ - categories.csv (un jeu de catégories Open Food Facts sélectionnées)
+ - répertoire data_categ (les produits en format json, téléchargés par catégorie)
  - fichiers csv extraits des json de data_categ :
-   products.csv, cat_prod.csv)
+   products.csv, cat_prod.csv
  - code création de la base de données :
    urlrequest_categories.py, read_products.py, load_data_in_openff.py
  - code du programme :
    openff.py, classes.py, constants.py, myconnutils.py
+ - requirements.txt (déploiement de l'application)
 
 To install and execute this program, you need to follow these steps:
 1. git clone https://github.com/n4th4lie/openff.git && cd openff
-2. python3 xxxxxxx.py on macos/linux or py -3 xxxxxxx.py on windows
+2. python3 openff.py on macos/linux or py -3 openff.py on windows
 
 If the dependencies are not installed, a virtual environment is automatically
 created with the needed requirements installed inside.
